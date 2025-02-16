@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #F0FFF0, #FFFFFF); /* Honeydew to White */
+    color: #228B22; /* Forest Green */
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #2E8B57, #3CB371); /* Sea Green to Medium Sea Green */
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #3CB371, #8FBC8F); /* Medium Sea Green to Dark Sea Green */
+    border-bottom: 1px solid #BDBDBD; /* Silver */
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D3D3D3 !important; /* Light Gray */
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: linear-gradient(to bottom, #3CB371, #8FBC8F); /* Medium Sea Green to Dark Sea Green */
+    color: #fff;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(to right, #2E8B57, #3CB371); /* Sea Green to Medium Sea Green */
+    border: none;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #3CB371, #8FBC8F); /* Medium Sea Green to Dark Sea Green */
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #228B22; /* Forest Green */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Alerts */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
