@@ -107,7 +107,7 @@ function displayReports($conn, $sql, $title, $user_id = null) {
                     echo "<button type='submit' class='btn btn-sm btn-primary'>Add Comment</button>";
                     echo "</form>";
                 } else {
-                    echo "<p><a href='resident_login.php'>Login</a> to add a comment.</p>";
+                    echo "<p><a href='login.php'>Login</a> to add a comment.</p>";
                 }
 
                 echo "</div>"; // End comments section
